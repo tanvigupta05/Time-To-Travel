@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities {
+  .header {
+    position: relative;
+    background-image: url(./Componet1/111.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* width: 100vw; */
+    height: 130vh;
+    overflow-y: hidden;
+  }
+
+  #texture {
+    position: absolute;
+    top: -150px;
+    width: 100%;
+  }
+
+  .main{
+    background-image: url(./Componet2/Image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 600px;
+  }
+
+  .page3{
+    background-image: url(./Componet3/Image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 680px;
+    width: 800px;
+    position: relative;
+    top: 10px;
+    object-fit: contain;
+  }
+
+  .page4{
+    background-image: url(./Componet4/Image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120vh;
+    width: 100vw;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+
+  .page4ve{
+    background-image: url(./Componet4/Vector.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 550px;
+    width: 900px;
+    position: relative;
+    left: 24vw;
+    top: 37vh;
+    font-family: "Yellowtail",cursive; 
+  }
+
+  .heading{
+    font-family: "Yellowtail", cursive;
+  }
+
+  #img1 img{
+    height: 35vh;
+    width: 20vw;
+  }
+
+  #img2 img{
+    height: 35vh;
+    width: 20vw;
+  }
+
+  #Page6{
+    overflow-y: hidden;
+  }
+
+  .centerImg{
+    width: 40vw;
+  }
+
+  .Page7{
+    position: relative;
+    background-image: url(./component7/Image11.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+
+  .wedding{
+    overflow-y: hidden;
+  }
+
+  .couple{
+    width: 50vw;
+    object-fit: contain;
+    overflow-y: hidden;
+  }
+
+  .list{
+    overflow-y: hidden;
+  }
+
+  .footer{
+    overflow-y: hidden;
+  }
+
+}
