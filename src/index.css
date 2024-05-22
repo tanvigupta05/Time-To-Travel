@@ -21,25 +21,6 @@
     width: 100%;
   }
 
-  .main{
-    background-image: url(./Componet2/Image.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 600px;
-    width: 600px;
-  }
-
-  .page3{
-    background-image: url(./Componet3/Image.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 680px;
-    width: 800px;
-    position: relative;
-    top: 10px;
-    object-fit: contain;
-  }
-
   .page4{
     background-image: url(./Componet4/Image.png);
     background-size: cover;
